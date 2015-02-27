@@ -1,5 +1,5 @@
 $(function(){
-	amount_of_enemies=3
+	amount_of_enemies=5
 	game_speed=20
 	kolli_kiirus = 7
 	slash_ulatus = 30
