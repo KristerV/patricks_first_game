@@ -4,7 +4,7 @@ body {
 	background:linear-gradient(to bottom, #1e528e 0%,#265889 50%,#9da671 100%);
 }
 
-h1, h2{
+h1, h2, h3{
 	text-shadow: 0px 0px 25px rgba(255, 255, 255, 1);
 	font-size: 3em;
 	text-align: center;
@@ -53,4 +53,35 @@ h1, h2{
 
 .back-red{
 	background: linear-gradient(to bottom, #071B26 0%,#071B26 30%,#8A3B12 80%,#240E03 100%);
+}
+
+.keyboard{
+	position: absolute;
+	width: 5%;
+	height: 5%;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+.key-space{
+	top:60%;
+	left:25%;
+	width:20%;
+}
+.key-up{
+	top:55%;
+	left:55%;
+}
+.key-down{
+	top:60%;
+	left:55%;
+}
+.key-left{
+	top:60%;
+	left:50%;
+}
+.key-right{
+	top:60%;
+	left:60%;
+
 }
